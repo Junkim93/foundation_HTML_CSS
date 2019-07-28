@@ -1,0 +1,39 @@
+@import "reset.css";
+@import url("https://fonts.googleapis.com/css?family=Lato:400,600&display=swap");
+@import "status-bar.css";
+@import "header.css";
+@import "nav-bar.css";
+@import "friend.css";
+
+* {
+  box-sizing: border-box;
+}
+
+/* 
+  why border box
+  box width 는 300px
+  padding left 20px 을 줬다고 가정해보자
+  padding을 넣으면 width 를 280로 인식하게 됨
+  그래서 브라우저는 이럼 안돼 하고 box 전체의 크기가 320px 이어야 한다고 함.
+  compensate 현상이 일어남
+  그럼 width는 320px이 돼버림, 
+  마찬가지로 height도 padding 값에 따라 맞춰서 늘어남
+  
+  그럼 box-sizing:border-box 를 할 때,
+  padding을 추가해도 overcompensate 하지 말아죠
+*/
+
+body {
+  background-color: white;
+  padding: 10px 20px;
+  color: #020202;
+  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* 부모 요소에서 색깔 받아오는 속성 */
