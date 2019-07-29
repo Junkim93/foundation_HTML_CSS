@@ -37,6 +37,22 @@
   background-color: #dc5d46;
 }
 
+@keyframes showNavBar {
+  from {
+    transform: translateY(80px);
+  }
+
+  to {
+    transform: none;
+  }
+}
+
+.nav {
+  transform: translateY(80px);
+  animation: showNavBar 0.5s ease-out forwards;
+  animation-delay: 0.4s;
+}
+
 /* 
   position fixed 는 기존 element를 다른 것들에서 떼어놔서,
   다른 레이어에 올려놔야 한다.
