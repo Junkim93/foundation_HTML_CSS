@@ -33,11 +33,7 @@ h3 {
       rgb(245, 243, 243) 50%,
       rgba(255, 255, 255, 0)
     ),
-<<<<<<< HEAD
     url("https://raw.githubusercontent.com/Junkim93/foundation_HTML_CSS/gh-pages/CSS_Clone_Practice3/src/images/bg.jpeg");
-=======
-    url("https://raw.githubusercontent.com/Junkim93/foundation_HTML_CSS/master/CSS_Clone_Practice3/src/images/bg.jpeg");
->>>>>>> master
   background-position: 45% -60%;
   padding: 25px 30px;
 }
