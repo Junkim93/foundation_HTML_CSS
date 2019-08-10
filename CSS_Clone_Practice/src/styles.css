@@ -1,0 +1,165 @@
+body {
+  font-family: "Muli", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+p {
+  margin: 0;
+}
+
+.main {
+  width: 540px;
+  height: 1140px;
+  background-color: #000000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.image1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 520px;
+  height: 595px;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+.product__detail {
+  margin-left: 10px;
+  margin-top: 20px;
+  width: 430px;
+}
+
+.product-description {
+  font-weight: 300;
+  font-size: 18px;
+  color: #acb0b4;
+}
+
+.product-img {
+  margin-top: 50px;
+  width: 400px;
+  height: auto;
+}
+
+.product__detail2 {
+  display: flex;
+  align-self: flex-start;
+  margin-top: 35px;
+  margin-left: 50px;
+}
+
+.product-price {
+  font-weight: 700;
+  margin-right: 255px;
+}
+
+.product-review {
+  color: #febe51;
+}
+
+.product-icon-5 {
+  color: #d8dde5;
+}
+
+.product-review-num {
+  color: #b8bcc2;
+}
+
+.image2 {
+  position: relative;
+  display: flex;
+  width: 520px;
+  height: 500px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.profile__bg {
+  position: absolute;
+  width: 520px;
+  height: 285px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: #ffffff;
+  z-index: 2;
+  align-self: flex-end;
+  margin-top: 110px;
+}
+
+.bg-img {
+  position: absolute;
+  width: 520px;
+  height: 500px;
+  border-radius: 10px;
+  z-index: 1;
+}
+
+.profile__image {
+  display: flex;
+}
+
+.profile-img {
+  position: absolute;
+  width: 105px;
+  height: 105px;
+  border-radius: 55px;
+  border: 5px solid white;
+  z-index: 3;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  bottom: 225px;
+}
+
+.profile__description {
+  text-align: center;
+  z-index: 4;
+  margin-top: 215px;
+}
+
+.profile__name {
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 15px;
+}
+
+.profile__status-message {
+  color: #a1a6ad;
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+
+.profile__select-bar {
+  display: flex;
+  z-index: 5;
+  text-align: center;
+  line-height: 65px;
+}
+
+.follow {
+  width: 200px;
+  height: 65px;
+  background-color: #6870f8;
+  color: #eaecff;
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.message {
+  width: 200px;
+  height: 65px;
+  background-color: #eaecff;
+  color: #6870f8;
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}

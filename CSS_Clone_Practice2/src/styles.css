@@ -1,0 +1,172 @@
+body {
+  font-family: "sunflower", sans-serif;
+  margin: 50px;
+  background-color: #c9cdd8;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+}
+
+a {
+  text-decoration: none;
+  color: red;
+}
+
+.sign-in {
+  width: 320px;
+  height: 620px;
+  background-color: #f8f8f8;
+  border-radius: 45px;
+  border: 0.5px solid white;
+  box-shadow: inset 0 0 1px 15px rgba(255, 255, 255, 0.4),
+    3px 6px 1px 6px rgba(255, 255, 255, 1),
+    11px 15px 17px 13px rgba(0, 0, 0, 0.3);
+}
+
+.sign-in .sign-in__title {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 40px;
+  font-size: 22px;
+  font-weight: 700;
+  opacity: 0.8;
+}
+
+.sign-in .sign-in__input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sign-in__input a {
+  align-self: flex-end;
+  margin: 5px;
+  margin-right: 25px;
+  font-size: 12px;
+  color: red;
+  opacity: 0.8;
+}
+
+.sign-in__input .sign-in__info {
+  width: 80%;
+  height: 30px;
+  border: none;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.sign-in__remember {
+  font-weight: 300;
+  font-size: 12px;
+  margin-top: 15px;
+  margin-left: 30px;
+  opacity: 0.6;
+}
+
+input[id="checkbox"] {
+  display: none;
+}
+
+input[id="checkbox"] + label {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border: 1px solid #bcbcbc;
+  cursor: pointer;
+}
+
+input[id="checkbox"] + label .fa-check {
+  display: none;
+}
+
+input[id="checkbox"]:checked + label .fa-check {
+  display: inline-block;
+  color: red;
+}
+
+.sign-in__remember span {
+  margin-left: 5px;
+}
+
+.sign-in .sign-in__sign-in {
+  display: flex;
+  flex-direction: column;
+}
+
+.sign-in__sign-in .sign-in__basic {
+  align-self: center;
+  margin-top: 40px;
+  width: 240px;
+  height: 35px;
+  border-radius: 20px;
+  text-align: center;
+  line-height: 35px;
+  color: #f7f7f7f7;
+  background-color: #e2283e;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.sign-in__sign-in p {
+  margin-left: 45px;
+  font-size: 14px;
+}
+
+.sign-in__sign-in .sign-in__social {
+  display: flex;
+  justify-content: center;
+}
+
+.sign-in__social a {
+  width: 110px;
+  height: 35px;
+  color: white;
+  border-radius: 20px;
+  text-align: center;
+  line-height: 35px;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.sign-in__social .sign-in__facebook {
+  background-color: #4b5ba3;
+  margin-right: 8px;
+}
+
+.sign-in__social .sign-in__twitter {
+  background-color: #5da1f2;
+  margin-left: 8px;
+}
+
+.sign-in .sign-in__footer {
+  font-size: 13px;
+  font-weight: 300;
+  opacity: 0.5;
+}
+
+.sign-in__footer .sign-in__sign-up {
+  display: flex;
+  align-items: center;
+  margin-top: 45px;
+  margin-left: 35px;
+}
+
+.sign-in__sign-up a {
+  margin-left: 5px;
+}
+
+.sign-in__footer .sign-in__retrive {
+  display: flex;
+  align-items: center;
+  margin-left: 35px;
+  transform: translateY(-15px);
+}
+
+.sign-in__retrive a {
+  margin-left: 5px;
+}

@@ -1,6 +1,9 @@
 # foundation_HTML_CSS
-foundation for web development
 
+[Page link](https://junkim93.github.io/foundation_HTML_CSS/kakao-clone/index.html)
+
+foundation for web development
 The list belows
+
 - [x] NomadCoders Kakao Clone Theory
-- [ ] NomadCoders Kakao Clone Practice
+- [x] NomadCoders Kakao Clone Practice
